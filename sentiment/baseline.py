@@ -1,8 +1,6 @@
 #coding:utf8
 """
-baseline文件中已实现了baseline model
-此处主要做一些特征工程的处理，主要包括文本预处理、卡方特征筛选
-后续会继续尝试fasttext模型，以及word2vec特征
+
 """
 import os
 import re,json,csv,string
