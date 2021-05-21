@@ -3,7 +3,7 @@ from os.path import join
 #from codecs import open
 
 
-def build_corpus(split, make_vocab=True, data_dir="../datasets"):
+def build_corpus(split, make_vocab=True, data_dir="../datasets/kaggle_ner_dataset"):
 	"""读取数据"""
 	assert split in ['train', 'dev', 'test']
 
